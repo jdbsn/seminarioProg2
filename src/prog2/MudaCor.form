@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="prog2.MudaCor">
+  <grid id="27dc6" binding="pnlPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="44186" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ae2fe" class="javax.swing.JButton" binding="pretoButton" default-binding="true">
+            <constraints border-constraint="South"/>
+            <properties>
+              <text value="Preto"/>
+            </properties>
+          </component>
+          <grid id="86b10" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9e8bf" class="javax.swing.JButton" binding="brancoButton" default-binding="true">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <text value="Branco"/>
+                </properties>
+              </component>
+              <grid id="3bf8b" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="62c82" class="javax.swing.JButton" binding="azulButton" default-binding="true">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <text value="Azul"/>
+                    </properties>
+                  </component>
+                  <grid id="e903" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="8e9b" class="javax.swing.JButton" binding="verdeButton" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Verde"/>
+                        </properties>
+                      </component>
+                      <grid id="4ee7c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="North"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="120c8" class="javax.swing.JButton" binding="vermelhoButton" default-binding="true">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <text value="Vermelho"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="5dd5d" binding="pnlCor" layout-manager="BorderLayout" hgap="80" vgap="80">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="74a48" class="javax.swing.JCheckBox" binding="ativarModoSemCliqueCheckBox" default-binding="true">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Ativar modo sem clique"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

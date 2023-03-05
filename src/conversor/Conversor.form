@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="conversor.Conversor">
+  <grid id="27dc6" binding="pnlPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="118" width="406" height="250"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="505a8" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fdef0" class="javax.swing.JButton" binding="msButton">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="m/s"/>
+            </properties>
+          </component>
+          <grid id="b141e" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="52154" class="javax.swing.JButton" binding="mphButton" default-binding="true">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="mph"/>
+                </properties>
+              </component>
+              <grid id="23330" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="d2313" class="javax.swing.JButton" binding="nosButton" default-binding="true">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <text value="nos"/>
+                    </properties>
+                  </component>
+                  <grid id="50594" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="c2680" class="javax.swing.JButton" binding="machButton" default-binding="true">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <text value="mach"/>
+                        </properties>
+                      </component>
+                      <component id="28701" class="javax.swing.JButton" binding="limparButton" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Limpar"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="94d6" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8dea4" class="javax.swing.JTextField" binding="entrada">
+            <constraints border-constraint="South"/>
+            <properties/>
+          </component>
+          <component id="55530" class="javax.swing.JTextArea" binding="saida">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <editable value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="e01f" class="javax.swing.JTextField" binding="conversorDeVelocidadeTextField" default-binding="true">
+        <constraints border-constraint="North"/>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+          <text value="conversor.Conversor de velocidade"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
