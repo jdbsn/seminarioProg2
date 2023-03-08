@@ -88,7 +88,7 @@
         <properties>
           <editable value="false"/>
           <horizontalAlignment value="0"/>
-          <text value="conversor.Conversor de velocidade"/>
+          <text value="Conversor de velocidade"/>
         </properties>
       </component>
     </children>
